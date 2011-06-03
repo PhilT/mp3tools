@@ -1,6 +1,7 @@
 # Scans the tree from the current directory looking for mp3 files and if they have no attached picture looks for Folder.jpg or
 # folder.jpg in the same folder as the mp3 and if found adds it to the mp3.
 
+require 'rubygems'
 require 'id3lib'
 
 cover = {
